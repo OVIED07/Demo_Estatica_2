@@ -19,10 +19,11 @@ body
     font-family: 'Fira sans';
     color: white;   
     letter-spacing: 4px;
-    color: rgb(88, 88, 88);
-    background: #009FFF;  
-    background: -webkit-linear-gradient(to right, rgb(255, 0, 38), rgb(16, 226, 121));  
-    background: linear-gradient(to right, rgb(236, 47, 75), rgb(16, 226, 121)); 
+    color: rgb(0, 0, 0); 
+    background: -webkit-linear-gradient(to right, rgb(34, 123, 255), rgb(100, 0, 194));  
+    background: linear-gradient(to right, rgb(34, 123, 255), rgb(100, 0, 194));  
+    text-align: center;
+    display: flex;
     
 }
 
@@ -31,8 +32,24 @@ body
     background-color: transparent;
 }
 
+
 img
 {
-    border-radius: 5px;
+    border-radius: 7px;
+
 }
 
+.p1
+{
+    margin: 50px;
+}
+
+.p2
+{
+    margin: 50px;
+}
+
+.p3
+{
+    margin: 50px;
+}
